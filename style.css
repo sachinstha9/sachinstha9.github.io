@@ -107,18 +107,13 @@ a:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  background-color: white;
   margin: 0 10px;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.07);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .social-btn:hover {
   transform: translateY(-5px);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  text-decroration: underline;
 }
 
 .social-btn i {
